@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.5cm;
+    color:#3A7CA5;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    padding-inline-start: 1.75em;
+    text-align: center;
+    box-sizing:border-box;
+    }
+body{
+    background-color:#D9DCD6;
+}
+table{
+    border: 2px solid black;
+    table-layout: fixed;
+    width: 500px;
+    border-collapse: collapse;
+}
+th{
+    border: 2px solid black;
+}
+th,tr{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    
+}
+td{
+    border-width: 0 2px 0 2px ;
+    border-style: solid ;
+    border-color: black;
+}
+h2,h3{
+    color: #091F92;
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
