@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="manage_music" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="manage_music" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../manage_music" />
+				<Option object_output="D:/Project/Project_manage_music/Project_PPL2/manage_music/.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/manage_music" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="data/album.txt" />
+		<Unit filename="data/album_music.txt" />
+		<Unit filename="data/music.txt" />
+		<Unit filename="data/music_singer.txt" />
+		<Unit filename="data/musician.txt" />
+		<Unit filename="data/singer.txt" />
+		<Unit filename="data/type.txt" />
+		<Unit filename="include/Album.h" />
+		<Unit filename="include/DatabaseMapping.h" />
+		<Unit filename="include/Date.h" />
+		<Unit filename="include/LinkedList.h" />
+		<Unit filename="include/ManagedServices.h" />
+		<Unit filename="include/Music.h" />
+		<Unit filename="include/Musician.h" />
+		<Unit filename="include/Person.h" />
+		<Unit filename="include/Services.h" />
+		<Unit filename="include/Singer.h" />
+		<Unit filename="include/StringSupport.h" />
+		<Unit filename="include/Type.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Album.cpp" />
+		<Unit filename="src/DatabaseMapping.hpp" />
+		<Unit filename="src/Date.cpp" />
+		<Unit filename="src/LinkedList.hpp" />
+		<Unit filename="src/ManagedServices.cpp" />
+		<Unit filename="src/Music.cpp" />
+		<Unit filename="src/Musician.cpp" />
+		<Unit filename="src/Person.cpp" />
+		<Unit filename="src/Services.hpp" />
+		<Unit filename="src/Singer.cpp" />
+		<Unit filename="src/StringSupport.cpp" />
+		<Unit filename="src/Type.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

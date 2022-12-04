@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1668793611 source:d:\project\project_manage_music\project_ppl2\manage_music\src\album.cpp
+	"Album.h"
+	<fstream>
+	"StringSupport.h"
+
+1668793498 d:\project\project_manage_music\project_ppl2\manage_music\include\album.h
+	<string>
+	"Date.h"
+	<fstream>
+
+1669485364 d:\project\project_manage_music\project_ppl2\manage_music\include\date.h
+	<string>
+
+1668513449 d:\project\project_manage_music\project_ppl2\manage_music\include\stringsupport.h
+	<LinkedList.h>
+	"Date.h"
+
+1668512655 d:\project\project_manage_music\project_ppl2\manage_music\include\linkedlist.h
+	<iostream>
+	<string>
+	"../src/LinkedList.hpp"
+
+1668528058 d:\project\project_manage_music\project_ppl2\manage_music\src\linkedlist.hpp
+	"LinkedList.h"
+	<fstream>
+
+1669485676 source:d:\project\project_manage_music\project_ppl2\manage_music\src\date.cpp
+	"Date.h"
+	<sstream>
+
+1669533480 source:d:\project\project_manage_music\project_ppl2\manage_music\src\managedservices.cpp
+	"ManagedServices.h"
+	"DatabaseMapping.h"
+	<sstream>
+
+1669533185 d:\project\project_manage_music\project_ppl2\manage_music\include\managedservices.h
+	"Services.h"
+	"Musician.h"
+	"Music.h"
+	"Singer.h"
+	"Album.h"
+	"Type.h"
+
+1668786141 d:\project\project_manage_music\project_ppl2\manage_music\include\services.h
+	"LinkedList.h"
+	<string>
+	"../src/Services.hpp"
+
+1668786132 d:\project\project_manage_music\project_ppl2\manage_music\src\services.hpp
+	<fstream>
+	"Services.h"
+	"StringSupport.h"
+	"DatabaseMapping.h"
+
+1667630774 d:\project\project_manage_music\project_ppl2\manage_music\include\databasemapping.h
+	<string>
+	"Services.h"
+	"../src/DatabaseMapping.hpp"
+
+1667626522 d:\project\project_manage_music\project_ppl2\manage_music\src\databasemapping.hpp
+	"DatabaseMapping.h"
+
+1668359664 d:\project\project_manage_music\project_ppl2\manage_music\include\musician.h
+	<string>
+	"Person.h"
+
+1667891201 d:\project\project_manage_music\project_ppl2\manage_music\include\person.h
+	<string>
+	"Date.h"
+	"../Gender.h"
+
+1665244252 d:\project\project_manage_music\project_ppl2\manage_music\gender.h
+
+1668512466 d:\project\project_manage_music\project_ppl2\manage_music\include\music.h
+	"Date.h"
+	<string>
+	"LinkedList.h"
+
+1667616820 d:\project\project_manage_music\project_ppl2\manage_music\include\singer.h
+	"Person.h"
+
+1668513507 source:d:\project\project_manage_music\project_ppl2\manage_music\src\stringsupport.cpp
+	"StringSupport.h"
+	<vector>
+
+1669533839 source:d:\project\project_manage_music\project_ppl2\manage_music\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"Date.h"
+	"Music.h"
+	"Musician.h"
+	"Singer.h"
+	"ManagedServices.h"
+
+1668357141 source:d:\project\project_manage_music\project_ppl2\manage_music\src\musician.cpp
+	"Musician.h"
+	"StringSupport.h"
+	"LinkedList.h"
+
+1668357146 source:d:\project\project_manage_music\project_ppl2\manage_music\src\singer.cpp
+	"Singer.h"
+	"StringSupport.h"
+
+1667891591 source:d:\project\project_manage_music\project_ppl2\manage_music\src\person.cpp
+	"Person.h"
+
+1669485394 source:d:\project\project_manage_music\project_ppl2\manage_music\src\music.cpp
+	"Music.h"
+	"StringSupport.h"
+
+1668836086 source:d:\project\project_manage_music\project_ppl2\manage_music\src\type.cpp
+	"Type.h"
+	"StringSupport.h"
+
+1668433473 d:\project\project_manage_music\project_ppl2\manage_music\include\type.h
+	<string>
+
